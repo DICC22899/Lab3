@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
         saludo=(Button)findViewById(R.id.saludo);
         saludo.setOnClickListener(new View.OnClickListener(){
             @Override
